@@ -1,0 +1,36 @@
+@import '../../styles/components/variables';
+
+.wrapper {
+	padding: 1.3rem;
+}
+
+.label {
+	display: flex;
+
+	border-radius: 1rem;
+
+	padding: .87rem 1rem;
+
+	border: 1px solid $border-line-color;
+}
+
+.icon {
+	width: 15px;
+	height: 15px;
+}
+
+.btn {
+
+	border: 1px solid transparent;
+	border-radius:.5rem;
+	transition: border-color .2s ease background .2s ease;
+
+	padding: .5rem 1rem;
+	&:hover {
+		border-color: $border-line-color;
+	}
+
+	&:active {
+		background: $border-line-color;
+	}
+}

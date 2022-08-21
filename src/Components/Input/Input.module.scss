@@ -1,0 +1,11 @@
+@import '../../styles/components/variables';
+
+.input {
+	width: 100%;
+	border: 0;
+
+	background-color: transparent;
+	&::placeholder {
+		color: $placeholder-font-color;
+	}
+}

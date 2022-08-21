@@ -1,0 +1,67 @@
+@import '../../styles/components/variables';
+
+.wrapper {
+	display: block;
+	padding: 0.8rem 0.6rem;
+
+	border-bottom: 1px solid $border-line-color;
+
+	transition: background .4s ease;
+	&:hover {
+		background-color: rgba(gray, .5);
+	}
+}
+
+.contact {
+	display: flex;
+	align-items: top;
+	justify-content: space-between;
+
+	&__wrapper {
+		display: flex;
+	}
+}
+
+.avatar {
+	width: 40px;
+	height: 40px;
+
+	position: relative;
+	
+	&_marg {
+		margin-right: .5rem;
+	}
+}	
+
+.mark {
+	width: 20px;
+	height: 20px;
+
+	position: absolute;
+	bottom: -5px;
+	right: -5px;
+
+	background: white;
+	border-radius: 50%;
+}
+
+.name {
+	font-size: .9rem;
+	color: $font-color;
+}
+
+.message {
+	width: 100%;
+	max-width: 200px;
+
+	font-size: .85rem;
+	color: $placeholder-font-color;
+
+	&_marg {
+		margin-top: .5rem;
+	}
+}
+
+.date {
+	font-size: .7rem;
+}

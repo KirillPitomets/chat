@@ -1,0 +1,18 @@
+@import '../../styles/components/variables';
+
+.wrapper {
+	width: 100%;
+	min-height: 100vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	font-size: 4.5rem;
+	text-transform: uppercase;
+	color: $placeholder-font-color;
+	
+	opacity: .5;
+}

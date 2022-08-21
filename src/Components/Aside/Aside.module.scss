@@ -1,0 +1,12 @@
+@import '../../styles/components/variables';
+
+.aside {
+	width: 100%;
+	max-width: 360px;
+	height: 100vh;
+	border: 1px solid $border-line-color;
+}
+
+.title {
+	margin: 2rem 0;
+}

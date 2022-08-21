@@ -1,0 +1,12 @@
+@import '../../styles/components/variables';
+
+.photo {
+	max-width: 40px;
+	min-width: 40px;
+	height: 40px;
+
+	&_marg {
+		margin: 1.25rem 0 .6rem;
+	}
+}
+

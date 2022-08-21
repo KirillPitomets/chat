@@ -1,0 +1,13 @@
+@import '../../styles/components/variables';
+
+.wrapper {
+	padding: 0.8rem 0.6rem;
+
+	&_bg {
+		background-color: $secondary-bg-color;
+	}
+	
+	&_border-bot {
+		border-bottom: 1px solid $border-line-color;
+	}
+}
